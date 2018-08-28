@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The project is a restaurant review website which is serving by the local machine.
+The project is a restaurant review website which is served locally.
 
 ## Run the Project
 
