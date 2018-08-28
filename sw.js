@@ -1,6 +1,3 @@
-// The SW code is derived from and modified based on Google Developer documentation.
-// https://developers.google.com/web/fundamentals/primers/service-workers/
-
 var CACHE_NAME = 'restaurant';
 var urlsToCache = [
     '/',

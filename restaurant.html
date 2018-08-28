@@ -20,8 +20,8 @@
       <h1><a href="/">Restaurant Reviews</a></h1>
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" >
-      <li><a href="/">Home</a></li>
+    <ul id="breadcrumb" aria-label="Breadcrumb">
+      <li aria-current="page"><a href="/">Home</a></li>
     </ul>
     <!-- End breadcrumb -->
     <!-- End nav -->
@@ -31,12 +31,12 @@
   <!-- Beginning main -->
   <main id="maincontent">
     <!-- Beginning map -->
-    <section id="map-container">
+    <section id="map-container" role="application" aria-label="Google map with the marker which indicates the foolowing restaurant">
       <div id="map"></div>
     </section>
     <!-- End map -->
     <!-- Beginning restaurant -->
-    <section id="restaurant-container">
+    <section id="restaurant-container" role="contentinfo" aria-label="Basic info about the restaurant">
       <h1 id="restaurant-name"></h1>
       <img id="restaurant-img">
       <p id="restaurant-cuisine"></p>
@@ -45,7 +45,7 @@
     </section>
     <!-- end restaurant -->
     <!-- Beginning reviews -->
-    <section id="reviews-container">
+    <section id="reviews-container" role="contentinfo" aria-label="Reviews of the restaurant">
       <ul id="reviews-list"></ul>
     </section>
     <!-- End reviews -->

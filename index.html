@@ -12,26 +12,26 @@
 
 <body>
   <header>
-    <nav>
-      <h1><a href="/">Restaurant Reviews</a></h1>
+    <nav aria-label="Breadcrumb">
+      <h1 aria-current="page"><a href="/">Restaurant Reviews</a></h1>
     </nav>
   </header>
 
   <main id="maincontent">
-    <section id="map-container">
+    <section id="map-container" role="application" aria-label="Google map with markers with indicate the following restaurants">
       <div id="map"></div>
     </section>
     <section>
       <div class="filter-options">
         <h2>Filter Results</h2>
-        <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
+        <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()" aria-label="Select a borough or all boroughs of New York City">
           <option value="all">All Neighborhoods</option>
         </select>
-        <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
+        <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()" aria-label="Select an ethnic flavor">
           <option value="all">All Cuisines</option>
         </select>
       </div>
-      <ul id="restaurants-list"></ul>
+      <ul id="restaurants-list" role="group" aria-label="Filtered restaurants according to the previous filters."></ul>
     </section>
   </main>
 
