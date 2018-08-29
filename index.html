@@ -23,11 +23,11 @@
     </section>
     <section>
       <div class="filter-options">
-        <h2>Filter Results</h2>
-        <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()" aria-label="Select a borough or all boroughs of New York City">
+        <h2 tabindex="0">Filter Results</h2>
+        <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()" tabindex="0" aria-label="Select a borough or all boroughs of New York City">
           <option value="all">All Neighborhoods</option>
         </select>
-        <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()" aria-label="Select an ethnic flavor">
+        <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()" tabindex="0" aria-label="Select an ethnic flavor">
           <option value="all">All Cuisines</option>
         </select>
       </div>
@@ -41,7 +41,7 @@
 
 
   <footer id="footer">
-    Copyright (c) 2017 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
+    Copyright (c) 2017 <a href="/" tabindex="0"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
   </footer>
 
 </body>
