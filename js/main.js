@@ -179,7 +179,7 @@ addMarkersToMap = (restaurants = self.restaurants) => {
     }
     self.markers.push(marker);
   });
-} 
+}
 
 // Service worker
 if ('serviceWorker' in navigator) {
